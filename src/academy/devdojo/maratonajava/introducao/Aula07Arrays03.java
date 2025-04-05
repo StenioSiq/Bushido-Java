@@ -23,6 +23,5 @@ public class Aula07Arrays03 {
         for (String nome : nomes) {
             System.out.println(nome);
         }
-
     }
 }
