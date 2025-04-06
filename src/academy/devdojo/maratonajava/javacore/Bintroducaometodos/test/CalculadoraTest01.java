@@ -8,12 +8,17 @@ public class CalculadoraTest01 {
 
         Calculadora calculadora = new Calculadora();
 
-        calculadora.soma(2,5);
+        calculadora.soma(2, 5);
 
-        calculadora.subtracao(2,5);
+        calculadora.subtracao(2, 5);
 
-        calculadora.multiplicacao(2,5);
+        calculadora.multiplicacao(2, 5);
 
-        calculadora.divisao(2,5);
+        calculadora.divisao(2, 5);
+
+        if (calculadora.ehPar(4)) {
+            System.out.println("eh par");
+        }
     }
+
 }

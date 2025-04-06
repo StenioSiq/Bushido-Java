@@ -18,4 +18,12 @@ public class Calculadora {
         double res = first / second;
         System.out.println(res);
     }
+    public boolean ehPar(int numero) {
+        return numero % 2 == 0;
+    }
+    public void alteraDoisNumeros(int numero1, int numero2) {
+        numero1 = 99;
+        numero2 = 33;
+        System.out.println(numero1 +" "+ numero2);
+    }
 }
