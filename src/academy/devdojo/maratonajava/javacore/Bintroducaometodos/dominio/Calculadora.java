@@ -26,4 +26,18 @@ public class Calculadora {
         numero2 = 33;
         System.out.println(numero1 +" "+ numero2);
     }
+    public void somaArray(int [] numeros) {
+        int soma = 0;
+        for (int num : numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+    public void somaVarArgs(int... numeros){ // VarArgs precisa ser o ultimo parametro do metodo!
+        int soma = 0;
+        for (int num : numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
 }
