@@ -8,7 +8,7 @@ Criar duas classes: `Pessoa` e `Endereco`.
 - A classe `Endereco` deve conter: `rua`, `número` e `cidade`.
 - A associação é unidirecional: a `Pessoa` conhece o `Endereco`, mas o `Endereco` não conhece a `Pessoa`.
 
-### Desafio:
+### Desafio: ✅
 Crie instâncias no método `main` e exiba as informações da `Pessoa` junto com seu `Endereco`.
 
 ---
