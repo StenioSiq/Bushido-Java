@@ -9,8 +9,9 @@ public class Main {
 
         Aluno[] alunos = {aluno1, aluno2, aluno3};
 
-        Curso curso = new Curso("ADS",alunos);
+        Curso cursoads = new Curso("ADS",alunos);
 
-        System.out.println(curso);
+        System.out.println(cursoads);
     }
 }
+
