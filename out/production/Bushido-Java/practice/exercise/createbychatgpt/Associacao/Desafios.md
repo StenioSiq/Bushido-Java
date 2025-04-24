@@ -23,7 +23,7 @@ Modelar a relação entre `Curso` e `Aluno`.
 - A classe `Aluno` deve conter: `nome` e `matricula`.
 - Um `Curso` pode ter vários alunos, e um `Aluno` pode existir mesmo sem estar em um curso.
 
-### Desafio:
+### Desafio: ✅
 Permita adicionar/remover alunos de um curso. Instancie um curso com 3 alunos e exiba os dados.
 
 ---
