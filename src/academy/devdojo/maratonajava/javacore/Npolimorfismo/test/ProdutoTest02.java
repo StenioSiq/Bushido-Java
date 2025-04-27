@@ -33,7 +33,7 @@ public class ProdutoTest02 {
 
         System.out.println("\n");
 
-        Tomate tomate = new Tomate("Perola",9, "2025-05-11");
+        Tomate tomate = new Tomate("Perola",9);
         System.out.println(tomate.getNome());
         System.out.println(tomate.getPreco());
         System.out.println(tomate.taxaImposto());

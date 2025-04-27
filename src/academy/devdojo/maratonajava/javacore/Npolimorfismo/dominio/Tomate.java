@@ -9,10 +9,6 @@ public class Tomate extends Produto{
     public Tomate(String nome, double preco) {
         super(nome, preco);
     }
-    public Tomate(String nome, double preco, String dataValidade) {
-        super(nome, preco);
-        this.dataValidade = dataValidade;
-    }
 
     @Override
     public double taxaImposto() {
